@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/firebase_core/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/cyalin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/20652c03ad0ed4b9b2d4a1af3f1d7102/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/firebase_core/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/cyalin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/20652c03ad0ed4b9b2d4a1af3f1d7102/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/firebase_core/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/cyalin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/20652c03ad0ed4b9b2d4a1af3f1d7102/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/firebase_core/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/cyalin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/20652c03ad0ed4b9b2d4a1af3f1d7102/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/firebase_core/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/cyalin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/20652c03ad0ed4b9b2d4a1af3f1d7102/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/firebase_core/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/cyalin/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/20652c03ad0ed4b9b2d4a1af3f1d7102/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    }
+]
