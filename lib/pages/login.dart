@@ -13,7 +13,6 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-
   @override
   Widget build(BuildContext context) {
     final loginButton = Padding(
@@ -84,8 +83,6 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Future _login() async {
-    setState(() {
-      requestLoginAPI(context, username, password);
-    });
+    requestLoginAPI(context, username, password);
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:supbank_wallet/pages/login.dart';
 import 'package:supbank_wallet/utils/screen_size.dart';
 import 'package:supbank_wallet/widgets/formular/transactionFormular.dart';
 import 'package:supbank_wallet/utils/api/requestSendAPI.dart';
@@ -56,7 +57,10 @@ class _HomePageState extends State<HomePage> {
               ),
               FlatButton(
                 color: Colors.black87,
-                onPressed: () => Navigator.pop(context),
+                onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => LoginPage()),
+                    ),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.only(
                       topLeft: const Radius.circular(24),
@@ -173,10 +177,4 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
-
-/*Future _send() async{
-    setState((){
-      requestSendAPI(context, publicKey, privateKey, amount);
-    });
-  }*/
 }
