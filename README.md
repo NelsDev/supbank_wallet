@@ -2,15 +2,19 @@
 
 This application is used for manage a wallet.
 
-## Getting Started
+## Context
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Screens
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+### Login Screen
+
+<img src="https://github.com/Nelsray/supbank_wallet/blob/master/images/login_screen.jpg" width="300">
+
+
+### Dashboard Screen
+
+<img src="https://github.com/Nelsray/supbank_wallet/blob/master/images/home_screen.jpg" width="300">
