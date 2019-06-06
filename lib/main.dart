@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'RegisterPage.dart';
 import 'package:supbank_wallet/pages/login.dart';
 import 'package:supbank_wallet/pages/home.dart';
 

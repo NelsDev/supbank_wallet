@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:supbank_wallet/pages/login.dart';
+import 'package:supbank_wallet/utils/api/requestBalanceAPI.dart';
 import 'package:supbank_wallet/utils/screen_size.dart';
+import 'package:supbank_wallet/widgets/formular/loginFormular.dart';
 import 'package:supbank_wallet/widgets/formular/transactionFormular.dart';
 import 'package:supbank_wallet/utils/api/requestSendAPI.dart';
 
@@ -14,11 +16,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    //TODO FUNCTION TO RETURN BALANCE WITH ID FROM THE USER
-    //showRequestBalanceAPI(3);
-
     //TODO BALANCE DEFAULT
-    final double balanceValue = 1208;
+    var total = responseBalance();
+    double balanceValue = total.toDouble();
 
     final sendButton = Padding(
       padding: EdgeInsets.symmetric(vertical: 16.0),
@@ -57,10 +57,14 @@ class _HomePageState extends State<HomePage> {
               ),
               FlatButton(
                 color: Colors.black87,
-                onPressed: () => Navigator.push(
+                onPressed: () async {
+                  Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => LoginPage()),
-                    ),
+                      MaterialPageRoute(
+                          builder: (BuildContext ctx) => LoginPage()));
+                  username = "";
+                  password = "";
+                },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.only(
                       topLeft: const Radius.circular(24),

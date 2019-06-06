@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-final usernameController = TextEditingController();
-final passwordController = TextEditingController();
-
 String username = "";
 String password = "";
 
@@ -31,7 +28,6 @@ Widget loginEnter = TextField(
     username = usernameValue;
   },
   autofocus: false,
-  controller: usernameController,
   decoration: InputDecoration(
     hintText: 'Login',
     contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
@@ -45,7 +41,6 @@ Widget passwordEnter = TextField(
   },
   autofocus: false,
   obscureText: true,
-  controller: passwordController,
   decoration: InputDecoration(
     hintText: 'Password',
     contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),

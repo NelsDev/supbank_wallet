@@ -1,15 +1,22 @@
+import 'dart:convert';
+
 import 'package:http/http.dart' as http;
 import 'package:supbank_wallet/models/balanceModel.dart';
 import 'dart:async' show Future;
 
-Future<BalanceModel> showRequestBalanceAPI(int id) async {
-  final url = "http://10.14.104.150:80/balanceapp";
+var response;
 
-  Map<String, dynamic> body = {
-    'id': id,
+Future<BalanceModel> requestBalanceAPI(String address) async {
+  final url = "http://10.14.104.150:8080/getBalance";
+
+  Map<String, String> body = {
+    'address': address,
   };
 
-  final response = await http.get(url);
+  response = await http.post(
+    url,
+    body: body,
+  );
 
   //TODO PRINT RESPONSE
   print('GET Response code: ' +
@@ -17,5 +24,14 @@ Future<BalanceModel> showRequestBalanceAPI(int id) async {
       "   " +
       response.body);
 
+  responseBalance();
+
   return null;
+}
+
+responseBalance() {
+  var data = json.decode(response.body);
+  var rest = data["balance"] as int;
+  print("BALANCE VALUE : $rest");
+  return rest;
 }

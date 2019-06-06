@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:supbank_wallet/models/loginModel.dart';
 import 'package:supbank_wallet/pages/home.dart';
-import 'package:supbank_wallet/pages/login.dart';
 import 'package:supbank_wallet/widgets/dialog/errorLoginUrlDialog.dart';
-import 'package:supbank_wallet/widgets/formular/loginFormular.dart';
 import 'dart:async' show Future;
 import 'package:crypto/crypto.dart';
 import 'package:supbank_wallet/widgets/dialog/errrorLoginDialog.dart';
@@ -43,9 +41,6 @@ Future<LoginModel> requestLoginAPI(
       context,
       MaterialPageRoute(builder: (context) => HomePage()),
     );
-
-    usernameController.clear();
-    passwordController.clear();
   } else if (response.statusCode == 401) {
     showErrorLoginDialog(context);
   } else {

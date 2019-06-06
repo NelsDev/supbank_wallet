@@ -1,4 +1,4 @@
-#Mon Jun 03 11:50:15 CEST 2019
+#Thu Jun 06 19:44:59 CEST 2019
 base.0=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

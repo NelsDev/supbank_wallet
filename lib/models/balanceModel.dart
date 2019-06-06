@@ -1,15 +1,15 @@
 class BalanceModel {
-  final int id;
+  final int balance;
 
-  BalanceModel({this.id});
+  BalanceModel({this.balance});
 
   factory BalanceModel.fromJson(Map<String, dynamic> parsedJson){
     return BalanceModel(
-        id: parsedJson['id']
+        balance: parsedJson["balance"]
     );
   }
 
   Map<String, dynamic> toJson() => {
-    'id': id,
+    "balance": balance,
   };
 }

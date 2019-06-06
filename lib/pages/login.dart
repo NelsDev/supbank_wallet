@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:supbank_wallet/utils/api/requestBalanceAPI.dart';
 import 'package:supbank_wallet/utils/api/requestLoginAPI.dart';
 import 'package:supbank_wallet/widgets/formular/loginFormular.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -24,7 +25,6 @@ class _LoginPageState extends State<LoginPage> {
         onPressed: () {
           new Future.delayed(new Duration(seconds: 1), () {
             _onLoading();
-            //requestLoginAPI(context, username, password);
             performLogin();
           });
         },
@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  Function _onLoading() {
+  Future<Function> _onLoading() async {
     showDialog(
       context: context,
       barrierDismissible: false,
@@ -76,13 +76,12 @@ class _LoginPageState extends State<LoginPage> {
     );
     new Future.delayed(new Duration(seconds: 4), () {
       _login();
-      return null;
     });
-
     return null;
   }
 
   Future _login() async {
     requestLoginAPI(context, username, password);
+    requestBalanceAPI(username);
   }
 }
