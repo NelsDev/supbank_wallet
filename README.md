@@ -2,6 +2,10 @@
 
 This application is a school project create for used for manage a wallet.
 
+The code base comes from the project flutter_wallet_ui
+
+https://github.com/kalismeras61/flutter_wallet_ui
+
 
 ## Screens
 
