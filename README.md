@@ -1,10 +1,6 @@
-# supbank_wallet
+# Supbank Wallet
 
-This application is used for manage a wallet.
-
-## Context
-
-This project is a starting point for a Flutter application.
+This application is a school project create for used for manage a wallet.
 
 
 ## Screens
