@@ -6,6 +6,8 @@ import 'package:supbank_wallet/utils/api/requestLoginAPI.dart';
 import 'package:supbank_wallet/widgets/formular/loginFormular.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
+import 'home.dart';
+
 class LoginPage extends StatefulWidget {
   static String tag = 'login-page';
 
@@ -81,7 +83,11 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Future _login() async {
-    requestLoginAPI(context, username, password);
-    requestBalanceAPI(username);
+    //requestLoginAPI(context, username, password);
+    //requestBalanceAPI(username);
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => HomePage()),
+    );
   }
 }
