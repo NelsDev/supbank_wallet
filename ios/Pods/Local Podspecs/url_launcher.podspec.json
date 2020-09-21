@@ -5,16 +5,14 @@
   "description": "A Flutter plugin for making the underlying platform (Android or iOS) launch a URL.",
   "homepage": "https://github.com/flutter/plugins/tree/master/packages/url_launcher",
   "license": {
-    "type": "BSD",
     "file": "../LICENSE"
   },
   "authors": {
-    "Flutter Dev Team": "flutter-dev@googlegroups.com"
+    "Flutter Team": "flutter-dev@googlegroups.com"
   },
   "source": {
-    "http": "https://github.com/flutter/plugins/tree/master/packages/url_launcher"
+    "path": "."
   },
-  "documentation_url": "https://pub.dev/packages/url_launcher",
   "source_files": "Classes/**/*",
   "public_header_files": "Classes/**/*.h",
   "dependencies": {
@@ -24,9 +22,5 @@
   },
   "platforms": {
     "ios": "8.0"
-  },
-  "pod_target_xcconfig": {
-    "DEFINES_MODULE": "YES",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
   }
 }

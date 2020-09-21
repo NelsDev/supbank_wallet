@@ -18,8 +18,6 @@ Future<BalanceModel> requestBalanceAPI(String address) async {
     body: body,
   );
 
-  print("reponse : " + response.toString());
-
   //TODO PRINT RESPONSE
   print('GET Response code: ' +
       response.statusCode.toString() +
