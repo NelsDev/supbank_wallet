@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jun 03 11:50:15 CEST 2019
+#Mon Sep 21 22:48:06 CEST 2020
 4.path=flutter_assets/LICENSE
 13.baseType=DIRECTORY
 8.set=ASSET
@@ -14,11 +14,11 @@
 4.set=ASSET
 5.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 7.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/transforms/dexMerger/debug/0
-11.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/transforms/stripDebugSymbol/debug/0
+11.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 9.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 13.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/transforms/stripDebugSymbol/debug/0
 1.baseType=DIRECTORY
-11.set=NATIVE_RESOURCE
+11.set=ASSET
 0.set=ASSET
 6.baseType=DIRECTORY
 7.set=DEX
@@ -32,7 +32,7 @@
 5.path=flutter_assets/isolate_snapshot_data
 0.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 7.path=classes.dex
-11.path=lib/armeabi-v7a/libflutter.so
+11.path=flutter_assets/NOTICES
 9.path=flutter_assets/images/logo.png
 6.set=ASSET
 2.base=/Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out

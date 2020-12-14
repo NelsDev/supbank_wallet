@@ -3,8 +3,18 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
+
+#if __has_include(<shared_preferences/SharedPreferencesPlugin.h>)
 #import <shared_preferences/SharedPreferencesPlugin.h>
+#else
+@import shared_preferences;
+#endif
+
+#if __has_include(<url_launcher/UrlLauncherPlugin.h>)
 #import <url_launcher/UrlLauncherPlugin.h>
+#else
+@import url_launcher;
+#endif
 
 @implementation GeneratedPluginRegistrant
 

@@ -7,6 +7,19 @@ INJECTED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet
 MERGED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from [:shared_preferences] /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/ee20a5a9bccb8c1870705c01ba6965b1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/3fc39c980ff42bbec622605ad5b545ce/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/91b941999e76eb4d05101534580dfe7d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/f9815124aea9bd32da9c5489d55da7cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1045e3176a07e0e18e97cc858edab671/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/997dddae87220cc35cc8a43b4a75239f/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/66d82b761d9a1f6e21c33b404e84a04b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/623e39ed9cf40a086052387da98078b8/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/151f90f685d8c0b391e255fbfb9c3e49/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/2576a030a10a879a235f094f31dab879/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/61bcd2ba92d3359ca1efc8b9662258ff/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/29215330e923593575ad6d96ea204a97/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/a79be9af5d6e45bbf378abd68af76980/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -28,6 +41,12 @@ application
 ADDED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/main/AndroidManifest.xml:9:5-32:19
 MERGED from [:url_launcher] /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher] /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/997dddae87220cc35cc8a43b4a75239f/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/997dddae87220cc35cc8a43b4a75239f/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/29215330e923593575ad6d96ea204a97/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/29215330e923593575ad6d96ea204a97/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/997dddae87220cc35cc8a43b4a75239f/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/main/AndroidManifest.xml:11:9-39
 	android:icon
@@ -72,6 +91,32 @@ MERGED from [:shared_preferences] /Users/cyalin/Documents/Workspace/Workspace_Fl
 MERGED from [:shared_preferences] /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/build/url_launcher/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/ee20a5a9bccb8c1870705c01ba6965b1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/ee20a5a9bccb8c1870705c01ba6965b1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/3fc39c980ff42bbec622605ad5b545ce/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/3fc39c980ff42bbec622605ad5b545ce/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/91b941999e76eb4d05101534580dfe7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/91b941999e76eb4d05101534580dfe7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/f9815124aea9bd32da9c5489d55da7cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/f9815124aea9bd32da9c5489d55da7cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1045e3176a07e0e18e97cc858edab671/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/1045e3176a07e0e18e97cc858edab671/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/997dddae87220cc35cc8a43b4a75239f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/997dddae87220cc35cc8a43b4a75239f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/66d82b761d9a1f6e21c33b404e84a04b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/66d82b761d9a1f6e21c33b404e84a04b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/623e39ed9cf40a086052387da98078b8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/623e39ed9cf40a086052387da98078b8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/151f90f685d8c0b391e255fbfb9c3e49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/151f90f685d8c0b391e255fbfb9c3e49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/2576a030a10a879a235f094f31dab879/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/2576a030a10a879a235f094f31dab879/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/61bcd2ba92d3359ca1efc8b9662258ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/61bcd2ba92d3359ca1efc8b9662258ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/29215330e923593575ad6d96ea204a97/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/29215330e923593575ad6d96ea204a97/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/a79be9af5d6e45bbf378abd68af76980/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cyalin/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/a79be9af5d6e45bbf378abd68af76980/AndroidManifest.xml:20:5-44
 INJECTED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/cyalin/Documents/Workspace/Workspace_Flutter/supbank_wallet/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
